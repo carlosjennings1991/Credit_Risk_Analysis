@@ -19,8 +19,10 @@ These metrics bear some explanation, especially since precision and accuracy are
 ```Accuracy``` is the likelihood of the test correctly predicting both outcomes. 
 **Formula: (True Postive + True Negative / (True Positive + False Positive + False Negative + True Negative))**
 
+#
 
 We have to keep in mind the subject matter, credit risk. It's much, much riskier for a bank to approve a loan to someone who will default than to deny a loan to someone who will not default. Think of the possible outcomes like this. 
+
 
 ```True Positive:``` Correctly predict that the person is high risk and deny loan.
 
@@ -29,6 +31,7 @@ We have to keep in mind the subject matter, credit risk. It's much, much riskier
 ```False Positive:``` Incorrectly predict that the person is high risk and deny the loan. 
 
 ```True Negative:``` Correctly predict that the person is low risk and approve the loan. 
+
 
 For a bank, the loss of income on a loan default vastly outweighs the revenue lost by not approving those who would repay the loan. For this reason the recall metric i.e 'sensitivity' is more important that precision and when we evaluate each method of prediction, we pay closer attention to the recall. 
 
