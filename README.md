@@ -2,11 +2,11 @@
 
 In this analysis, we review the likelihood of a borrower defaultingo on a loan. Using several variables as inputs, we test several sampling and classification techniques to find the best predictor. For each method, we rely on three key metrics. 
 
-**Precision
+**Precision**
 <br>
-**Sensitivity (aka 'Recall')
+**Sensitivity (aka 'Recall')**
 <br>
-**Accuracy
+**Accuracy**
 
 These metrics bear some explanation, especially since precision and accuracy are nearly interchangeable in everyday speech.
 
