@@ -49,6 +49,8 @@ For a bank, the loss of income on a loan default vastly outweighs the revenue lo
 
 ## Results 1: Naive Random Oversampling
 
+In this method, we simply oversample members of the minority class until they reach parity with the majority class. The accuracy, nearly 64% is the better than the three other samplers, but still not great. As for it's recall of high risk loan applicants, it's only 0.59, meaning 41% of high risk applicants are receiving a loan. That's not good. 
+
 <img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/RNS_Accuracy_Score.png">
 <img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/RNS_Classification_Report.png">
 
