@@ -18,3 +18,8 @@ Formula: (True Positive / (True Positive + False Negative)
 
 ```'Accuracy'``` is the likelihood of the test correctly predicting both outcomes. 
 Formula: (True Postive + True Negative / (True Positive + False Positive + False Negative + True Negative))
+
+#
+
+[Sampling Results Here](https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
+[Classification Results Here](https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
