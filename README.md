@@ -43,6 +43,9 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 
 ## Results 3: Cluster Centroids Undersampling
 
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/CCluster_Accuracy_Score.png">
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/CCluster_Classification_Report.png">
+
 ## Results 4: SMOTEENN Combo Sampling
 
 ## Results 5: Balanaced Random Forest Classifier
