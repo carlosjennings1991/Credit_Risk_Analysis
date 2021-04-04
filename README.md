@@ -56,7 +56,7 @@ In this method, we simply oversample members of the minority class until they re
 
 ## Results 2: SMOTE Oversampling
 
-Using the Synthetic Minority Oversampling Technique (SMOTE) we oversample members of the minority class, but instead of merely selecting minority-class data points multiple times until the two class reach parity, we interpolate new data points of the minority data class. With this method we achieve similar results, 62% accuracy and low recall of the false negatives. 41% of the high risk applicants are receiving a loan in this model as well. 
+Using the Synthetic Minority Oversampling Technique (SMOTE) we oversample members of the minority class, but instead of merely selecting minority-class data points multiple times until the two class reach parity, we interpolate new data points of the minority data class. With this method we achieve similar results, 62% accuracy and low recall of the false negatives. 38% of the high risk applicants are receiving a loan in this model as well. 
 
 <img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/SMOTE_Accuracy_Score.png">
 <img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/SMOTE_Classification_Report.png">
@@ -91,4 +91,12 @@ In this technique, we run an Adaptive Boosting technique, which is a bit complic
 
 ## Summary
 
+After looking at these 6 techniques, we see a wide range in outcomes, both from accuracy, precision and recall. However, the resampling techniques, when used by themselves, do not produce good results. They are only marginally above random chance, and if deployed within a financial institution, they would undoubtedly call the bank to go under. We have to keep in mind that it only takes a low percentage of defaults to cause tremendous damage to a bank. 
+
+Conversely, the two classification methods we examine, Random Forest and AdaBoost, perform noticeably better, especially AdaBoost.
+
 ### Recommendation
+
+We can see from the above analyses that resampling improves the predictions slightly and the modified classifiers improve the predictions quite noticeably. However, the best performer, AdaBoost, still has an 8% default rate. 8% is still high enough to cause a bank to collapse, or compensate by charging high interest rates. 
+
+The one option we haven't explored is a comination of resampling AND advanced classification. If a combination of the two, for instance SMOTEENN and AdaBoost can lower the false negatives to under 2% then it could be used in the real world. 
