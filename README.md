@@ -48,9 +48,18 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 
 ## Results 4: SMOTEENN Combo Sampling
 
-## Results 5: Balanaced Random Forest Classifier
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/SMOTEENN_Accuracy_Score.png">
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/SMOTEENN_Classification_Report.png">
+
+## Results 5: Balanced Random Forest Classifier
+
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/BRFC_Accuracy_Score.png">
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/BRFC_Classification_Report.png">
 
 ## Results 6: AdaBooster Classifier
+
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/AdBC_Accuracy_Score.png">
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/AdBC_Classification_Report.png">
 
 ## Summary
 
