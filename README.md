@@ -31,5 +31,5 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 
 #
 
-## Results
+## Results 1: Naive Random Oversampling
 
