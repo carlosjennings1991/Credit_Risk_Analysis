@@ -99,4 +99,8 @@ Conversely, the two classification methods we examine, Random Forest and AdaBoos
 
 We can see from the above analyses that resampling improves the predictions slightly and the modified classifiers improve the predictions quite noticeably. However, the best performer, AdaBoost, still has an 8% default rate. 8% is still high enough to cause a bank to collapse, or compensate by charging high interest rates. 
 
-The one option we haven't explored is a comination of resampling AND advanced classification. If a combination of the two, for instance SMOTEENN and AdaBoost can lower the false negatives to under 2% then it could be used in the real world. 
+The one option we haven't explored is a comination of resampling AND advanced classification. If a combination of the two, for instance SMOTEENN and AdaBoost can lower the false negatives to under 2% then it could be used in the real world.
+
+Another option would be adding variables to the source file, such as employment type and industry. In regards to employment type, I mean 10-99 self-employed, salaried or hourly. Self employed people can have a very high income one year and a very low income the next regardless of title, whereas salaried workers can reasonably expect a more steady income. 
+
+As for the industry variable, I mean the industry in which each loan applicant works. For instance, those working in the legal or architectural professions, which have a lot of prestige, have a surprisingly low income have been shedding jobs in recent years. 
