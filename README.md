@@ -33,3 +33,7 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 
 ## Results 1: Naive Random Oversampling
 
+## Results 2: SMOTE Oversampling
+
+## Results 3: Cluster Centroids Undersampling
+
