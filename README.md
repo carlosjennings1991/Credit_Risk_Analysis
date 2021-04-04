@@ -11,13 +11,14 @@ In this analysis, we review the likelihood of a borrower defaultingo on a loan. 
 These metrics bear some explanation, especially since precision and accuracy are nearly interchangeable in everyday speech.
 
 ```Precision``` is the likelihood of the test correctly predicting binary outcomes i.e default vs non-default. 
-Formula: (True Positive / (True Positive + False Positive))
+**Formula: (True Positive / (True Positive + False Positive))**
 
 ```Sensitivity``` is the likelihood of test correctly identifying *each outcome correctly*. 
-Formula: (True Positive / (True Positive + False Negative)
+**Formula: (True Positive / (True Positive + False Negative)**
 
 ```Accuracy``` is the likelihood of the test correctly predicting both outcomes. 
-Formula: (True Postive + True Negative / (True Positive + False Positive + False Negative + True Negative))
+**Formula: (True Postive + True Negative / (True Positive + False Positive + False Negative + True Negative))**
+
 
 We have to keep in mind the subject matter, credit risk. It's much, much riskier for a bank to approve a loan to someone who will default than to deny a loan to someone who will not default. Think of the possible outcomes like this. 
 
