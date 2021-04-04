@@ -43,3 +43,6 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 
 ## Results 6: AdaBooster Classifier
 
+## Summary
+
+### Recommendation
