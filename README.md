@@ -38,6 +38,9 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 
 ## Results 2: SMOTE Oversampling
 
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/SMOTE_Accuracy_Score.png">
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/SMOTE_Classification_Report.png">
+
 ## Results 3: Cluster Centroids Undersampling
 
 ## Results 4: SMOTEENN Combo Sampling
