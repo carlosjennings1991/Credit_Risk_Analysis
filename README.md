@@ -24,6 +24,5 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 [Sampling Results Here](https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/credit_risk_resampling.ipynb)
 <br>
 [Classification Results Here](https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/credit_risk_ensemble.ipynb)
-
 #
 
