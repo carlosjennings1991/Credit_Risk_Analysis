@@ -34,6 +34,7 @@ Formula: (True Postive + True Negative / (True Positive + False Positive + False
 ## Results 1: Naive Random Oversampling
 
 <img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/RNS_Accuracy_Score.png">
+<img src="https://github.com/carlosjennings1991/Credit_Risk_Analysis/blob/main/RNS_Classification_Report.png">
 
 ## Results 2: SMOTE Oversampling
 
